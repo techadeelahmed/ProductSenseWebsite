@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProductSense – AI-native Product Management Software</title>
+    <meta name="description" content="AI-native product management tool that helps B2B SaaS teams turn customer feedback into actionable insights and smarter product decisions." />
+    <meta property="og:image" content="/og-image.png" />
+    <link rel="icon" href="/favicon.svg" />
+    <meta property="og:url" content="https://productsense.com" />
+    <meta property="og:type" content="website" />
+    <script type="module" crossorigin src="/assets/index-hP8frjfl.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B4i5qczB.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
