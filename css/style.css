@@ -15,7 +15,7 @@ body {
 body,
 html {
   overflow: visible;
-  background-color: #1a1f23;
+  background-color: #0f0f0f;
 
 }
 
@@ -396,8 +396,8 @@ ul {
   background: url('../assets/img/grey-noise-background.png');
   WIDTH: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 
@@ -410,7 +410,6 @@ ul {
 
 .GiftImg::after {
   content: "";
-  /* background: url('../assets/img/BG\ Dots.png'); */
   position: absolute;
   width: 100%;
   height: 100%;
@@ -509,559 +508,6 @@ ul {
   display: block;
   text-align: left !important;
 }
-
-.inspireSec {
-  background-color: #24292d;
-  padding: 112px 0px;
-  margin-bottom: -20px;
-}
-
-
-.inspireSec h2 {
-  color: #fff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-size: 30px;
-}
-
-.inspireSec h2 span {
-  font-weight: 400;
-  font-style: italic;
-}
-
-.inspireSec .MainBoxProblem p {
-  color: #8a8f98;
-  font-size: 18px;
-  text-align: left;
-  line-height: 1.65;
-}
-
-.inspireSec .InnerInspire {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 80px;
-  width: 70%;
-  position: relative;
-  z-index: 0;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.inspireSec .InnerInspire .InspireItem {
-  width: calc(33.33% - 10px);
-  margin-bottom: 60px;
-}
-
-.inspireSec .InnerInspire .InspireBox {
-  border-radius: 20px;
-  background-color: rgb(223, 112, 97);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 321px;
-  position: relative;
-  z-index: 1;
-}
-
-.inspireSec .InnerInspire .InspireBox.Products {
-  background-color: rgba(229, 125, 18, 0.86);
-}
-
-.inspireSec .InnerInspire .InspireBox.reals {
-  background-color: #ffc107;
-}
-
-.inspireSec .InnerInspire .InspireBox.talking {
-  background-color: #198334;
-}
-
-.inspireSec .InnerInspire .InspireBox.facelace {
-  background-color: rgba(73, 98, 215, 0.64);
-}
-
-.inspireSec .InnerInspire .InspireBox.tiktok {
-  background-color: rgba(136, 112, 185, 0.75);
-}
-
-.inspireSec .InnerInspire .InspireBox h3 {
-  color: #000;
-  font-weight: 400;
-  font-size: 68px;
-  font-style: italic;
-}
-
-.inspireSec .InnerInspire h3 {
-  font-size: 20px;
-  color: #8a8f98;
-  line-height: 1.4;
-  font-weight: 400;
-  margin-top: 10px;
-}
-
-.WellComWrapper {
-  background-color: #111111;
-  padding: 100px 0px;
-}
-
-.WellComWrapper .container {
-  max-width: 100% !important;
-}
-
-.WellComWrapper h2 {
-  color: #fff;
-  font-size: 198px;
-  text-align: center;
-  line-height: 1.1;
-  font-weight: 800;
-  position: relative;
-}
-
-.WellComWrapper h2 span {
-  font-weight: 800;
-}
-
-.WellComWrapper h3 {
-  color: #fff;
-  font-size: 192px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.rocks-wrapper {
-  position: sticky;
-  top: 0;
-  z-index: 0;
-  /* Ensure it's part of the stacking context */
-}
-
-.rocks-wrapper video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-position: 50%;
-  background-size: cover;
-  margin: auto;
-  /* Remove position absolute */
-  /* Remove top, bottom, left, right */
-}
-
-.rocks-wrapper .waves-video {
-  z-index: -1;
-  height: 100vh;
-  position: relative;
-}
-
-.Fanssec {
-  background: url(../img/bgBlue.jpg);
-  padding: 60px 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  z-index: 0;
-}
-
-.Fanssec::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.Fanssec h2 {
-  color: #fff;
-  font-size: 198px;
-  line-height: 1.1;
-  font-weight: 700;
-}
-
-.Fanssec h2 span {
-  font-weight: 400;
-  font-style: italic;
-}
-
-.Fanssec h2:last-of-type {
-  margin-top: 20px;
-  text-align: right;
-}
-
-.Fanssec span {
-  color: #fff;
-  font-size: 198px;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.Fanssec h3 {
-  color: #fff;
-  font-size: 198px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.Fanssec .InnerVideoEdit {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 60px;
-}
-
-.Fanssec .InnerVideoEdit .Video50 {
-  width: calc(50% - 20px);
-}
-
-.Fanssec .InnerVideoEdit .Video50 video {
-  width: 100%;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  border-radius: 15px;
-}
-
-.Fanssec .InnerVideoEdit h5 {
-  font-size: 16px;
-  color: #3EDDC9;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.Fanssec .InnerVideoEdit h6 {
-  color: #fff;
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 1.3;
-}
-
-.Fanssec .InnerVideoEdit p {
-  color: #fff;
-  font-size: 16px;
-  line-height: 1.2;
-  font-weight: 400;
-}
-
-.text-danger-glow {
-  color: #ff4141;
-  text-shadow: 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00, 0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00, 0 0 80px #f00;
-}
-
-.blink {
-  animation: blinker 1s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
-}
-
-@keyframes blinker {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-
-.TalkSection {
-  background: url(../img/talkus.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 80px 0px;
-  background-position: center center;
-  position: relative;
-  z-index: 0;
-}
-
-.TalkSection::before {
-  content: "";
-  position: absolute;
-  background: rgba(0, 0, 0, 0.8);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.TalkSection .InnerTalk {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.TalkSection .contentTalk {
-  max-width: 600px;
-  width: 100%;
-}
-
-.TalkSection .contentTalk .form-control {
-  background: unset;
-  color: #fff;
-  margin-bottom: 20px;
-  font-size: 16px;
-  height: 45px;
-  border-radius: unset;
-}
-
-.TalkSection .contentTalk .form-control::placeholder {
-  color: #fff;
-  font-size: 16px;
-}
-
-.TalkSection .innerCheckbox {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.TalkSection .letsTalk {
-  background: repeat padding-box border-box 61% 50%/150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
-  padding: 10px 15px;
-  border-radius: 30px;
-  color: #fff;
-  max-width: 100%;
-  width: 100%;
-  margin-bottom: 20px;
-  text-align: center;
-  display: block;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.TalkSection h2 {
-  font-size: 50px;
-  color: #fff;
-  width: 100%;
-  text-align: center;
-  font-weight: 700;
-  line-height: 1.3;
-  margin-bottom: 20px;
-}
-
-.TalkSection p {
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-
-.TalkSection span {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 400;
-}
-
-.TalkSection .BookYour {
-  font-size: 18px;
-  font-style: italic;
-  color: #FFF;
-  opacity: 0.7;
-  border-bottom: 1px solid #fff;
-  padding-bottom: 10px;
-  margin-top: 40px;
-  display: block;
-  max-width: 220px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.TalkSection .BookYour img {
-  width: 30px;
-  margin-left: 10px;
-}
-
-.TalkSection .RequestBtn {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 194px;
-  height: 56px;
-  width: 100%;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  font-weight: 400;
-  color: #fff;
-  background: repeat padding-box border-box 61% 50%/150% 150% scroll radial-gradient(circle at 0% 0%, #1d2cf3 0%, #1d2cf3 45%, #FFFFFF 100%);
-  margin-top: 30px;
-  transition: all 0.4s ease-in-out;
-}
-
-.TalkSection .RequestBtn:hover {
-  background: repeat padding-box border-box 0%/auto scroll radial-gradient(circle at 0% 0%, #FFFFFF 0%, #1d2cf3 55%, #1d2cf3 100%);
-}
-
-.AwaitSec {
-  padding: 80px 0px;
-  background-color: #000;
-}
-
-.AwaitSec p {
-  color: #8a8f98;
-  font-size: 24px;
-  line-height: 1.2;
-  font-weight: 500;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.AwaitSec .container {
-  max-width: 70% !important;
-}
-
-.AwaitSec h2 {
-  font-size: 46px;
-  font-weight: 700;
-  line-height: 1.2;
-  color: #FFf;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.AwaitSec h2 span {
-  font-style: italic;
-  font-weight: 400;
-}
-
-.AwaitSec .InnerAwait {
-  margin-top: 70px;
-  justify-content: center !important;
-}
-
-.AwaitSec .AwaitContentBox {
-  width: calc(33.33% - 15px);
-}
-
-.AwaitSec .AwaitContentBox .RationIcon {
-  filter: brightness(0) saturate(100%) invert(1);
-}
-
-.AwaitSec .AwaitGift {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.AwaitSec .AwaitGift h3 {
-  color: #fff;
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-.AwaitSec .AwaitGift p {
-  color: #8a8f98;
-  font-size: 18px;
-  line-height: 1.2;
-  margin-bottom: 20px;
-  max-width: 300px;
-  width: 100%;
-}
-
-.AwaitSec .AwaitGift img {
-  max-width: 70px;
-  width: 100%;
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
-
-.AwaitSec .awiseContent {
-  padding: 30px 30px 130px 30px;
-  border-radius: 20px;
-  background-color: #161616;
-  position: relative;
-}
-
-.AwaitSec .awiseContent p {
-  font-size: 20px;
-  line-height: 1.2;
-  color: #8a8f98;
-  margin-top: 20px;
-}
-
-.AwaitSec .awiseContent .BookBtn {
-  background: repeat padding-box border-box 0% 0%/auto auto scroll linear-gradient(30deg, #A1A1A1 0%, #6F758A 100%);
-  border-radius: 10px;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
-.AwaitSec .awiseContent .facecover {
-  max-width: 200px;
-  width: 100%;
-  top: 20%;
-  position: absolute;
-  right: -12%;
-  transform: rotate(-17deg);
-}
-
-.AwaitSec .awiseContent .Innertext {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.inspireSec .ProblemBox h6 {
-  color: #7bff00;
-  background: #7bff004d;
-  font-size: 14px;
-  padding: 5px;
-  border-radius: 20px;
-  width: 100%;
-  max-width: 87px;
-  text-align: center;
-
-}
-
-.inspireSec .ProblemBox {
-  border: 1px solid #1e2939;
-  padding: 24px;
-  border-radius: 14px;
-  width: 100%;
-  max-width: 352px;
-  height: auto;
-  transform: translateY(0px);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 15px;
-}
-
-.inspireSec .ProblemBox:hover {
-  border: 1px solid #7bff00;
-  transition: all 0.5s ease-in;
-}
-
-.inspireSec .MainBoxProblem {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1136px;
-  margin: auto;
-  padding-bottom: 80px;
-}
-
-.inspireSec span {
-  color: #7bff00;
-  font-size: 20px;
-}
-
-.inspireSec p {
-  color: #FFF;
-  font-size: 20px;
-  text-align: center;
-}
-
 
 
 .GiftImg .leftSide {
@@ -1231,6 +677,7 @@ h4.build-text span {
 
 .inner-section-teams {
   padding-bottom: 80px;
+  gap: 60px;
 }
 
 img.profile-icon {
@@ -1267,7 +714,9 @@ img.profile-icon {
 .problem-section {
   height: 400vh;
   position: relative;
+  background-color: #0f0f0f !important;
   display: flex;
+  background: url('../assets/img/BG\ Dots.png');
 }
 
 .problem-left {
@@ -1283,13 +732,13 @@ img.profile-icon {
 
 .problem-left h4 {
   font-size: 1rem;
-  color: #6aff95;
+  color: #59f20d;
   margin-bottom: 0.5rem;
 }
 
 .problem-left h1 {
   font-size: 2rem;
-  color: #00ff66;
+  color: #59f20d;
 }
 
 .problem-wrapper {
@@ -1307,13 +756,13 @@ img.profile-icon {
   position: absolute;
   width: 60%;
   max-width: 600px;
-  padding: 2rem;
+  padding: 3rem;
   background: rgba(20, 20, 20, 0.9);
   border-radius: 12px;
   opacity: 0;
   transform: translateY(100px);
   transition: all 0.8s ease-out;
-  color: #00ff66;
+  color: #59f20d;
   border: 1px solid #1f1f1f;
 }
 
@@ -1324,14 +773,15 @@ img.profile-icon {
 
 .problem-card h2 {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
-  line-height: 1.4;
+  line-height: 1;
+  font-size: 32px;
+  color: #59f20d;
 }
 
 .problem-card p {
-  font-size: 1rem;
-  color: #aaffcc;
-  line-height: 1.6;
+  font-size: 16px;
+  color: #59f20d;
+  line-height: 1.4;
 }
 
 .solution-section {
@@ -1354,7 +804,7 @@ img.profile-icon {
 }
 
 .problem-card h2 {
-  color: #00ff66;
+  color: #59f20d;
   margin-bottom: 1rem;
 }
 
@@ -1403,68 +853,7 @@ img.profile-icon {
     margin-top: 45px;
   }
 
-  .getBtn {
-    max-width: 140px;
-  }
 
-
-
-  .VerstileSec h2 {
-    font-size: 36px;
-  }
-
-  .VerstileSec p {
-    font-size: 22px;
-  }
-
-  .VerstileSec .Innervlog .VlogItem h3 {
-    font-size: 32px;
-  }
-
-  .VerstileSec .Innervlog {
-    margin-top: 30px;
-    padding-bottom: 25px;
-  }
-
-  .inspireSec .InnerInspire .InspireBox h3 {
-    font-size: 51px;
-  }
-
-  .WellComWrapper h2 {
-    color: #fff;
-    font-size: 150px;
-  }
-
-  .rocks-wrapper .waves-video {
-    z-index: -1;
-    height: auto;
-    position: relative;
-  }
-
-  .Fanssec h2 {
-    color: #fff;
-    font-size: 135px;
-  }
-
-  .WellComWrapper h3 {
-    font-size: 150px;
-  }
-
-  .Fanssec span {
-    color: #fff;
-    font-size: 135px;
-  }
-
-  .Fanssec h3 {
-    color: #fff;
-    font-size: 135px;
-  }
-
-
-
-  .inspireSec p {
-    font-size: 22px;
-  }
 
 }
 
@@ -1540,65 +929,14 @@ img.profile-icon {
 
 
 
-
-  .VerstileSec h2 {
-    font-size: 36px;
-  }
-
-  .VerstileSec p {
-    font-size: 18px;
-  }
-
-  .getBtn {
-    max-width: 120px;
-  }
-
-  .VerstileSec .Innervlog .VlogItem .MoveBtn {
-    max-width: 110px;
-    height: 40px;
-  }
-
-  .VerstileSec .Innervlog .VlogItem h3 {
-    font-size: 26px;
-  }
-
-  .inspireSec .InnerInspire {
-    width: 80%;
-  }
-
   .HeroSectoin .musicImg {
     width: 70px;
   }
 
-  .inspireSec p {
-    font-size: 20px;
-  }
+
 }
 
 @media (max-width: 575.98px) {
-
-  .AwaitSec .AwaitGift img {
-    margin-bottom: 10px;
-  }
-
-  .AwaitSec .AwaitGift img {
-    max-width: 70px;
-    object-fit: scale-down;
-  }
-
-  .TalkSection span {
-    font-size: 12px;
-  }
-
-  .rocks-wrapper .waves-video {
-    height: 300px;
-  }
-
-  .navbar-collapse.show {
-    left: -40px !important;
-  }
-
-
 
   .HeroSectoin::before {
     width: 100px;
@@ -1653,66 +991,6 @@ img.profile-icon {
     opacity: 0.5;
   }
 
-  .VerstileSec .Innervlog .VlogItem .MoveBtn {
-    max-width: 86px;
-    height: 30px;
-  }
-
-  .VerstileSec .Innervlog .VlogItem .MoveBtn svg {
-    transform: rotate(-60deg);
-    width: 28px;
-  }
-
-  .VerstileSec .Innervlog .VlogItem p {
-    font-size: 12px;
-  }
-
-  .VerstileSec .Innervlog .VlogItem h3 {
-    font-size: 22px;
-  }
-
-  .VerstileSec h2 {
-    font-size: 32px;
-  }
-
-  .VerstileSec {
-    padding: 50px 0px;
-  }
-
-  .inspireSec {
-    padding: 30px 0px;
-  }
-
-  .inspireSec p {
-    margin-top: 15px;
-  }
-
-  .Pricing {
-    padding: 40px 0px 80px 0px;
-  }
-
-  .VerstileSec .Innervlog:hover {
-    right: 0px;
-  }
-
-  .inspireSec .InnerInspire {
-    width: 100%;
-  }
-
-  .inspireSec h2 {
-    padding-left: 0px;
-  }
-
-  .inspireSec p {
-    padding-left: 0px;
-  }
-
-  .inspireSec .InnerInspire .InspireItem {
-    width: calc(50% - 10px);
-    margin-bottom: 40px;
-  }
-
-
 
   .navbar-toggler.CrossIcon {
     position: absolute;
@@ -1733,9 +1011,7 @@ img.profile-icon {
   }
 }
 
-.bg-productsense-dark-gray {
-  background-color: #24292d;
-}
+
 
 .MissionSec {
   position: relative;
@@ -1843,7 +1119,7 @@ img.profile-icon {
 
 
 .TeamSec {
-  background-color: #20262d;
+  background-color: #0f0f0f !important;
   text-transform: none;
 }
 
@@ -1891,11 +1167,6 @@ img.profile-icon {
   margin-top: -30px;
   overflow: hidden;
   position: relative;
-  background: url('../assets/img/grey-noise-background.png');
-  WIDTH: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .StatsSection .stat-icon {
@@ -1956,13 +1227,7 @@ img.profile-icon {
   text-align: center;
 }
 
-/* .stats-divider {
-  width: 80px;
-  height: 2px;
-  margin: 0 auto;
-  border-radius: 999px;
-  background: linear-gradient(90deg, rgba(123, 255, 0, 0) 0%, rgba(123, 255, 0, 0.45) 50%, rgba(123, 255, 0, 0) 100%);
-} */
+
 
 .stats-grid {
   display: flex;
@@ -2238,6 +1503,18 @@ img.profile-icon {
 .inner-meet-content p {
   font-size: 32px;
   margin: 20px 0px;
+}
+
+.bottom-text {
+  font-size: 20px;
+  color: #ACB0B9;
+  position: relative;
+  z-index: 1;
+  width: 45%;
+  margin-left: auto;
+  margin-top: 20px;
+  padding-bottom: 44px;
+  padding-right: 90px;
 }
 
 .inner-meet-content {
