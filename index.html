@@ -474,10 +474,11 @@
         window.addEventListener("scroll", () => {
             const scrollY = window.scrollY;
             const vh = window.innerHeight;
+            const sectionTop = document.querySelector(".problem-section").offsetTop;
 
             cards.forEach((card, index) => {
-                const start = index * vh;
-                const end = (index + 1) * vh;
+                const start = sectionTop + index * vh;
+                const end = sectionTop + (index + 1) * vh;
 
                 if (scrollY >= start && scrollY < end) {
                     card.classList.add("active");
@@ -486,7 +487,6 @@
                 }
             });
         });
-
     </script>
 
 

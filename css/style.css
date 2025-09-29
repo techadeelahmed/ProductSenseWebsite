@@ -5,7 +5,6 @@ body {
   height: 100%;
   text-transform: capitalize;
   font-family: "Manrope", sans-serif;
-  overflow-x: hidden;
 }
 
 ::before,
@@ -15,7 +14,7 @@ body {
 
 body,
 html {
-  overflow-x: hidden;
+  overflow: visible;
   background-color: #1a1f23;
 
 }
@@ -1266,7 +1265,7 @@ img.profile-icon {
 
 /* Section with tall height to control scroll */
 .problem-section {
-  height: 100vh;
+  height: 400vh;
   position: relative;
   display: flex;
 }
@@ -1345,17 +1344,9 @@ img.profile-icon {
 
 
 
-.problem-card:nth-child(1) {
-  top: 0vh;
-}
 
-.problem-card:nth-child(2) {
-  top: 100vh;
-}
 
-.problem-card:nth-child(3) {
-  top: 200vh;
-}
+
 
 .problem-card.active {
   opacity: 1;
