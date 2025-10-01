@@ -398,6 +398,7 @@ ul {
   height: 100%;
   background-repeat: repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 
@@ -864,17 +865,203 @@ img.profile-icon {
 
 
 @media (max-width: 1680px) {
+  .FooterSec img {
+    width: 60% !important;
+  }
+
   .HeroSectoin .content-hero-sec {
-    transform: translate(0%, 20%);
+    transform: translate(0%, 30%);
   }
 
   .HeroSectoin h1 {
-    font-size: 65px;
+    font-size: 70px;
 
+  }
+
+  .problem-left {
+    padding: 10rem 6rem;
+  }
+
+  .problem-card {
+    max-width: 550px;
+    padding: 2rem;
+  }
+
+  .timeline-item.active h1 {
+    font-size: 30px;
+
+  }
+
+  .problem-section .inner-btn.problem {
+
+    margin-top: 130px !important;
+
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem h3 {
+    font-size: 60px;
+
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem p {
+    font-size: 28px;
+  }
+
+  .stats-heading {
+    margin-bottom: 70px !important;
+  }
+
+  .stat-number {
+    font-size: 56px;
+  }
+
+  .left-our-mission {
+    margin-left: 200px !important;
+
+  }
+
+  .inner-meet-content h2 {
+    font-size: 60px;
   }
 }
 
 @media (max-width: 1199.98px) {
+  .inner-items-footer {
+    justify-content: center;
+    width: 100% !important;
+    gap: 20px !important;
+  }
+
+  .inner-meet-content p {
+    font-size: 24px !important;
+  }
+
+  .bottom-text {
+    font-size: 18px !important;
+    width: 60% !important;
+  }
+
+  .inner-section-teams {
+    padding-bottom: 60px !important;
+    gap: 30px !important;
+  }
+
+  .description {
+    font-size: 16px !important;
+  }
+
+  .inner-meet-content h2 {
+    font-size: 40px !important;
+  }
+
+  .inner-meet-content h5 {
+    font-size: 20px;
+  }
+
+  .cta-form input {
+    font-size: 15px !important;
+    padding: 13px 16px !important;
+  }
+
+  .inner-main-footer {
+    padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cta-heading {
+    font-size: 30px !important;
+    margin-bottom: 20px;
+  }
+
+  .Meet-people {
+    height: 75vh !important;
+  }
+
+  .our-mission video {
+    left: -35% !important;
+  }
+
+  .our-mission h5 {
+    font-size: 16px !important;
+    margin-bottom: 20px;
+  }
+
+  .our-mission h2 {
+    font-size: 40px !important;
+  }
+
+  .our-mission p {
+    font-size: 16px !important;
+  }
+
+  .left-our-mission {
+    margin-left: 65px !important;
+  }
+
+  .StatsSection .stat-icon {
+    padding: 60px 10px 60px 10px
+  }
+
+  .stat-caption {
+    font-size: 18px;
+    margin: 7px;
+  }
+
+  .StatsSection .stat-icon img {
+    width: 80%;
+  }
+
+  .stat-number {
+    font-size: 50px !important;
+  }
+
+  .GiftImg {
+    padding: 30px 0px;
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem h3 {
+    font-size: 50px;
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem p {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .GiftImg .InnerGiftImg {
+    margin-top: 60px;
+    justify-content: center;
+    gap: 40px 40px;
+  }
+
+  .problem-wrapper {
+    width: 50vw;
+
+  }
+
+  .problem-left {
+    width: 50vw;
+  }
+
+  .problem-card h2 {
+
+    font-size: 23px;
+  }
+
+  .problem-card {
+    max-width: 460px;
+    padding: 2rem;
+  }
+
+  .problem-left {
+    padding: 10rem 3rem;
+  }
+
+  .timeline-item {
+    margin-bottom: 40px;
+    padding-left: 4rem;
+  }
 
   .HeroSectoin .MianNavbar .navbar-brand {
     height: 40px;
@@ -894,7 +1081,7 @@ img.profile-icon {
   }
 
   .HeroSectoin .MianNavbar .subNvabr {
-    max-width: 85% !important;
+    max-width: 100% !important;
   }
 
   .HeroSectoin h1 {
@@ -918,13 +1105,6 @@ img.profile-icon {
     padding: 5px 16px;
   }
 
-  .FAQsec .Accodion50 {
-    width: 100%;
-  }
-
-  .FAQsec .InnerAccordion {
-    flex-wrap: wrap;
-  }
 
   .InnerSubmit {
     margin-bottom: 20px;
@@ -965,7 +1145,7 @@ img.profile-icon {
   }
 
   .navbar-collapse.show {
-    left: -78px !important;
+    left: 0px !important;
     overflow-y: auto;
   }
 
@@ -975,17 +1155,173 @@ img.profile-icon {
     margin: auto;
   }
 
-  .HeroSectoin {
-    padding: 150px 0px;
+  .HeroSectoin video {
+    height: 90vh;
+
   }
 
+  .problem-card {
+    max-width: 400px;
+    padding: 1.5rem;
+  }
 
+  .timeline-item.active h1 {
+    font-size: 23px;
+  }
+
+  .problem-card.active {
+    transform: translateY(0) translateZ(0px) scale(1);
+
+  }
+
+  .timeline-item h4 {
+    font-size: 16px;
+  }
+
+  .timeline-item h1 {
+    font-size: 20px;
+
+  }
 
   .HeroSectoin .musicImg {
     width: 70px;
   }
 
+  .problem-card.active {
 
+    top: 20%;
+  }
+
+  .problem-card {
+
+    top: 50%;
+  }
+
+  .problem-wrapper {
+    width: 45vw;
+  }
+
+  .problem-section .inner-btn.problem {
+    margin-top: 75px !important;
+  }
+
+  .problem-left {
+    padding: 10rem 1rem;
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem h3 {
+    font-size: 30px;
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem p {
+    font-size: 20px;
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem span {
+    font-size: 15px;
+
+    margin-top: 10px;
+  }
+
+  .inner-btn {
+    max-width: 540px !important;
+    margin-top: 60px !important;
+    gap: 20px;
+  }
+
+  .stats-heading h3 {
+    font-size: 26px !important;
+  }
+
+  .stat-number {
+    font-size: 30px !important;
+  }
+
+  .stat-caption {
+    font-size: 16px;
+
+  }
+
+  .stat-card {
+    padding: 20px;
+    height: 200px !important;
+  }
+
+  .StatsSection .stat-icon {
+    padding: 60px 10px 60px 10px !important;
+  }
+
+  .our-mission h2 {
+    font-size: 30px !important;
+  }
+
+  .left-our-mission {
+    margin-left: 40px !important;
+  }
+
+  .left-our-mission {
+    min-width: 45% !important;
+
+  }
+
+  .our-mission video {
+    left: -13% !important;
+    width: 100% !important;
+  }
+
+  .Meet-people {
+    height: 50vh !important;
+  }
+
+  .inner-meet-content h2 {
+    font-size: 26px !important;
+  }
+
+  .inner-meet-content p {
+    font-size: 18px !important;
+  }
+
+  .inner-meet-content h5 {
+    font-size: 16px !important;
+  }
+
+  .bottom-text {
+    font-size: 14px !important;
+    width: 75% !important;
+  }
+
+  .section-spacing {
+    padding: 60px 0 !important;
+  }
+
+  .description {
+    font-size: 14px !important;
+  }
+
+  .cta-heading {
+    font-size: 25px !important;
+  }
+
+  .cta-copy {
+    font-size: 16px !important;
+  }
+
+  .copy-right-inner {
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .HeroSectoin .MianNavbar .navbar-brand img {
+    height: 18px;
+  }
+
+  .HeroSectoin .MianNavbar .InnerMbile {
+    gap: 20px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -998,14 +1334,76 @@ img.profile-icon {
 
   .BookBtn {
     display: inline-block;
-    padding: 8px 20px;
-    font-size: 14px;
+    padding: 6px 20px;
+    font-size: 12px;
   }
 
+  .HeroSectoin .content-hero-sec .container {
+    max-width: 76% !important;
 
+  }
 
-  .HeroSectoin {
-    padding: 150px 0px;
+  .HeroSectoin p {
+    color: #8F96A3;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 140%;
+
+  }
+
+  .gray-background-color {
+
+    background-position: center !important;
+    margin-top: -90px;
+  }
+
+  .product-link-page {
+    font-size: 12px;
+
+  }
+
+  .HeroSectoin video {
+    height: 55vh !important;
+  }
+
+  .timeline-item {
+    margin-bottom: 20px;
+    padding-left: 2rem;
+  }
+
+  .timeline-item h1 {
+    font-size: 15px;
+  }
+
+  .timeline-item h4 {
+    font-size: 12px;
+  }
+
+  .timeline-item.active h1 {
+    font-size: 18px;
+  }
+
+  .problem-card p {
+    font-size: 12px;
+  }
+
+  .problem-section .inner-btn.problem {
+    margin-top: 45px !important;
+    flex-wrap: wrap;
+  }
+
+  .problem-card.active {
+    z-index: 4;
+  }
+
+  .inner-btn .talk-btn {
+    width: 90% !important;
+    height: 30px;
+    font-size: 12px !important;
+  }
+
+  .problem-card h2 {
+    font-size: 18px;
   }
 
   .HeroSectoin .SocailIconInner {
@@ -1014,23 +1412,109 @@ img.profile-icon {
     transition: all 0.8s ease-in-out;
   }
 
+  .GiftImg .InnerGiftImg {
+    margin-top: 50px;
+    gap: 30px 30px;
+    flex-wrap: wrap !important;
+  }
+
+  .GiftImg .InnerGiftImg .GiftItem {
+    width: 100%;
+
+  }
+
+  .GiftImg .InnerGiftImg .Gift-image-right {
+    width: 100%;
+  }
+
+  .stats-grid {
+
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .stat-card {
+    padding: 20px !important;
+    width: 100% !important;
+  }
+
   .HeroSectoin .InnerBtn {
     margin-top: 30px;
     flex-direction: column;
     gap: 20px;
   }
 
+  .our-mission {
+    padding: 50px 0px;
+    flex-wrap: wrap;
 
+  }
 
   .HeroSectoin h1 {
     max-width: 370px;
     font-size: 32px;
   }
 
+  .left-our-mission {
+    min-width: 100% !important;
+    margin: 0px !important;
+    padding: 10px;
+  }
+
+  .our-mission video {
+    left: 0% !important;
+    width: 130%;
+  }
+
+  .inner-meet-content {
+
+    width: 100% !important;
+    margin-left: auto !important;
+    top: -140px !important;
+  }
+
   .container {
     max-width: 95% !important;
     width: 100% !important;
     height: 100% !important;
+  }
+
+  .Meet-people {
+
+    margin: 10px !important;
+  }
+
+  .main-teams-card {
+    width: 100%;
+  }
+
+  .FooterSec img {
+    width: 80% !important;
+  }
+
+  .FooterSec .footer-links {
+
+    font-size: 12px !important;
+  }
+
+  .inner-items-footer {
+    margin-right: 0px !important;
+    padding: 5px;
+    flex-wrap: wrap;
+  }
+
+  .footer-last-link {
+    font-size: 12px !important;
+  }
+
+  .HeroSectoin .MianNavbar .navbar-brand img {
+    height: 14px !important;
+  }
+
+  .inner-section-teams {
+    padding-bottom: 40px !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
   }
 
   .HeroSectoin .postImg {
@@ -1055,12 +1539,6 @@ img.profile-icon {
   padding: 80px 0;
   position: relative;
   z-index: 0;
-}
-
-@media (min-width: 768px) {
-  .section-spacing {
-    padding: 112px 0;
-  }
 }
 
 
@@ -1286,6 +1764,7 @@ img.profile-icon {
   align-items: center;
   gap: 30px;
   justify-content: center;
+  padding: 0px 20px;
 }
 
 .stat-card {
@@ -1295,7 +1774,7 @@ img.profile-icon {
   padding: 24px;
   box-shadow: 0 32px 80px -48px rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(12px);
-  width: 533px;
+  width: 33.33%;
   height: 252px;
   text-align: center;
   display: flex;
@@ -1340,7 +1819,7 @@ img.profile-icon {
 }
 
 .cta-heading {
-  font-size: 30px;
+  font-size: 36px;
   line-height: 1.25;
   font-weight: 700;
   color: #ffffff;
@@ -1432,10 +1911,6 @@ img.profile-icon {
   .field-wrap {
     flex-direction: row;
     align-items: center;
-  }
-
-  .cta-heading {
-    font-size: 36px;
   }
 
   .cta-copy {
@@ -1576,4 +2051,6 @@ img.profile-icon {
   justify-content: center;
   width: 50%;
   margin-left: auto;
+  position: relative;
+  top: -115px;
 }

@@ -41,6 +41,7 @@ window.addEventListener("scroll", () => {
 
 
 
+
 // Fade-in animations
 $(document).ready(function () {
   const observer = new IntersectionObserver((entries) => {
